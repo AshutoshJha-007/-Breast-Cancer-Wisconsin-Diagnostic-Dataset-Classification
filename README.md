@@ -57,3 +57,47 @@ The dataset used in this project is the **Breast Cancer Wisconsin (Diagnostic)**
 1. Clone the repository:
    ```bash
    git clone https://github.com/AshutoshJha-007/Breast-Cancer-Prediction-AutoML.git
+# **Principal Component Analysis (PCA) - In-Depth Explanation**
+
+## 📌 Introduction
+### What is PCA?
+Principal Component Analysis (PCA) is a **dimensionality reduction technique** that transforms high-dimensional data into a smaller set of **principal components** while retaining maximum information.
+
+### Why Use PCA?
+- Reduces **computational complexity** in ML models.
+- Removes **redundant and correlated features**.
+- Helps in **visualizing high-dimensional data**.
+
+### 🔗 [View Kaggle Notebook](your-kaggle-link-here)https://www.kaggle.com/code/iamtheoneaj/codespace-task-4-pca
+
+---
+
+## 🛠 **How PCA Works (Step-by-Step)**
+1. **Standardize Data**: Mean = 0, Variance = 1.
+2. **Compute Covariance Matrix**: Identifies feature relationships.
+3. **Calculate Eigenvalues & Eigenvectors**: Determines principal components.
+4. **Select Principal Components**: Keep components with highest variance.
+5. **Transform Data**: Convert original data into a new feature space.
+
+---
+
+## 🖥 **Implementation in Python**
+- **Step 1**: Standardize the dataset (`StandardScaler`)
+- **Step 2**: Apply PCA (`sklearn.decomposition.PCA`)
+- **Step 3**: Choose components based on **explained variance**
+- **Step 4**: Visualize results (scatter plots, variance plots)
+
+---
+
+## 🔍 **Techniques & Models Used**
+- **Principal Component Analysis (PCA)**
+- **Feature Reduction**
+- **Eigenvalues & Eigenvectors**
+- **Data Visualization (Scatter Plots, Variance Explained Plots)**
+
+---
+
+## ✅ **Key Takeaways**
+✔ PCA **reduces dimensions** while keeping key information.  
+✔ Helps **speed up ML models** and **remove noise**.  
+✔ Selecting the right **number of components** is crucial.  
